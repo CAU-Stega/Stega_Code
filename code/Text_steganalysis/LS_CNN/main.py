@@ -15,11 +15,11 @@ import random
 parser = argparse.ArgumentParser(description='LS_CNN')
 
 # learning
-parser.add_argument('-batch-size', type=int, default=64, \
+parser.add_argument('-batch-size', type=int, default=32, \
 					help='batch size for training [default: 64]')
-parser.add_argument('-lr', type=float, default=0.001,\
+parser.add_argument('-lr', type=float, default=0.002,\
 					help='initial learning rate [default:0.001]')
-parser.add_argument('-epochs', type=int, default=20,\
+parser.add_argument('-epochs', type=int, default=30,\
 					help='number of epochs for train [default:20]')
 parser.add_argument('-log-interval', type=int, default=20, \
 					help='how many steps to wait defore logging train status')

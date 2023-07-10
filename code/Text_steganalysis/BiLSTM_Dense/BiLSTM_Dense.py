@@ -41,3 +41,4 @@ class BiLSTM_Dense(nn.Module):
 		out = torch.add(torch.add(out1, out2), out3)
 		logit = self.fc1(out[:, -1, :])
 		return logit
+		# return out

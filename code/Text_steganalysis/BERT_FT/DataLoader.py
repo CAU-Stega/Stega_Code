@@ -1,13 +1,12 @@
 import torch
 import random
 from tqdm import tqdm
-
-# from transformers import BertModel, BertTokenizer
+#from transformers import BertModel, BertTokenizer
 
 PAD, CLS = '[PAD]', '[CLS]'
 
-
 def build_dataset(args):
+	
     def load_dataset(paths, pad_size=32):
         '''
         paths: ['cover.txt', 'stego.txt']
@@ -30,7 +29,7 @@ def build_dataset(args):
                     if pad_size:
                         if len(token) < pad_size:
                             mask = [1] * len(token_ids) + \
-                                   [0] * (pad_size - len(token))
+                                [0] *(pad_size - len(token))
                             token_ids += ([0] * (pad_size - len(token)))
                         else:
                             mask = [1] * pad_size
@@ -51,8 +50,8 @@ def build_dataset(args):
     else:
         return train_data, valid_data
 
+	
     # return train_data, valid_data, test_data
-
 
 class DatasetIterater(object):
     def __init__(self, batches, args):
@@ -68,14 +67,14 @@ class DatasetIterater(object):
     def _to_tensor(self, datas):
         x = torch.LongTensor([_[0] for _ in datas]).to(self.device)
         y = torch.LongTensor([_[1] for _ in datas]).to(self.device)
-
+        
         seq_len = torch.LongTensor([_[2] for _ in datas]).to(self.device)
         mask = torch.LongTensor([_[3] for _ in datas]).to(self.device)
         return (x, seq_len, mask), y
 
     def __next__(self):
         if self.residue and self.index == self.n_batches:
-            batches = self.batches[self.index * self.batch_size:len(self.batches)]
+            batches = self.batches[self.index*self.batch_size:len(self.batches)]
             self.index += 1
             batches = self._to_tensor(batches)
             return batches
@@ -86,14 +85,14 @@ class DatasetIterater(object):
 
         else:
             batches = self.batches[
-                      self.index * self.batch_size:(self.index + 1) * self.batch_size]
+                self.index*self.batch_size:(self.index+1)*self.batch_size]
             self.index += 1
             batches = self._to_tensor(batches)
             return batches
-
+	
     def __iter__(self):
         return self
-
+	
     def __len__(self):
         if self.residue:
             return self.n_batches + 1
@@ -105,9 +104,11 @@ def build_iterator(dataset, args):
     iters = DatasetIterater(dataset, args)
     return iters
 
+
+
 # Testing coding...
 
-# if __name__ == '__main__':
+#if __name__ == '__main__':
 #	import argparse
 #	parser = argparse.ArgumentParser(description='data')
 #	args = parser.parse_args()
@@ -121,7 +122,7 @@ def build_iterator(dataset, args):
 #	args.batch_size = 64
 #	args.device = 'cuda'
 #
-#	train_data, valid_data, test_data = build_dataset(args)
+#	train_data, valid_data, test_data = build_dataset(args) 
 #
 #	train_iter = build_iterator(train_data, args)
 #	valid_iter = build_iterator(valid_data, args)
@@ -129,7 +130,7 @@ def build_iterator(dataset, args):
 #	print(len(train_iter))
 #	print(len(valid_iter))
 #	print(len(test_iter))
-
+	
 
 
 

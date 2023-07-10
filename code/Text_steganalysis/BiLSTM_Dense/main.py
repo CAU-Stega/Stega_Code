@@ -15,9 +15,9 @@ import test
 parser = argparse.ArgumentParser(description='BiLSTM-Dense')
 
 # learning
-parser.add_argument('-batch-size', type=int, default=8, \
+parser.add_argument('-batch-size', type=int, default=16, \
                     help='batch size for training [default: 128]')
-parser.add_argument('-lr', type=float, default=0.001,\
+parser.add_argument('-lr', type=float, default=0.003,\
                     help='initial learning rate [default:0.001]')
 parser.add_argument('-epochs', type=int, default=20,\
                     help='number of epochs for train [default:20]')
@@ -100,10 +100,10 @@ print('\nLoading data...')
 text_field = data.Field(lower=True)
 label_field = data.Field(sequential=False)
 train_iter, valid_iter = data_loader(
-    text_field, 
-    label_field, 
-    args, 
-    device=args.device, 
+    text_field,
+    label_field,
+    args,
+    device=args.device,
     sort=False
 )
 
@@ -128,7 +128,7 @@ model = BiLSTM_Dense.BiLSTM_Dense(args)
 
 # initializing model
 for name, w in model.named_parameters():
-	if 'embed' not in name:	
+	if 'embed' not in name:
 		if 'fc1.weight' in name:
 			nn.init.xavier_normal_(w)
 
@@ -162,3 +162,4 @@ else:
     print('the {} model is loaded...'.format(m_path))
     model.load_state_dict(torch.load(m_path))
     train.data_eval(test_iter, model, args)
+

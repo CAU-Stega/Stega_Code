@@ -43,10 +43,9 @@ class LS_CNN(nn.Module):
 		# x=self.embed_A(x)
 
 		x = [F.relu(conv(x)).squeeze(3) for conv in self.convs1]
-		
 		x = [F.max_pool1d(i, i.size(2)).squeeze(2) for i in x]
 		x = torch.cat(x, 1)
-
 		x = self.dropout(x)
 		logit = self.fc1(x)
-		return logit
+		# return logit
+		return x, logit

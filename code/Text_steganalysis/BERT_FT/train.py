@@ -14,27 +14,27 @@ def train(train_iter, dev_iter, model, args):
     no_decay = ['bias', 'LayerNorm.bias', 'LayerNorm.weight']
     optimizer_grouped_parameters = [
         {'params': [p for n, p in param_optimizer \
-                    if not any(nd in n for nd in no_decay)], 'weight': 0.01},
+            if not any(nd in n for nd in no_decay)], 'weight':0.01},
         {'params': [p for n, p in param_optimizer \
-                    if any(nd in n for nd in no_decay)], 'weight': 0.0}]
+            if any(nd in n for nd in no_decay)], 'weight':0.0}]
 
     optimizer = BertAdam(
         optimizer_grouped_parameters,
         lr=args.lr,
         warmup=0.05,
-        t_total=len(train_iter) * args.epochs)
+        t_total=len(train_iter)*args.epochs)
 
     steps = 0
-    best_loss = 99
+    best_loss = 99 
     last_step = 0
     model.train()
 
-    for epoch in range(1, args.epochs + 1):
+    for epoch in range(1, args.epochs+1):
         print('\n--------training epochs: {}-----------'.format(epoch))
         print(args.train_stego_dir)
         for batch in train_iter:
             feature, target = batch[0], batch[1]
-
+            
             optimizer.zero_grad()
             torch.cuda.synchronize()
             logit = model(feature)
@@ -42,16 +42,16 @@ def train(train_iter, dev_iter, model, args):
             loss = F.cross_entropy(logit, target)
             loss.backward()
             optimizer.step()
-
+            
             steps += 1
             if steps % args.log_interval == 0:
                 corrects = (torch.max(logit, 1)[1].view(target.size()).data \
-                            == target.data).sum()
-                accuracy = corrects.item() / args.batch_size
+                    == target.data).sum()
+                accuracy = corrects.item()/args.batch_size
                 sys.stdout.write(
                     '\rBatch[{}] - loss:{:.6f} acc:{:.4f}({}/{})'.format(
-                        steps, loss.item(), accuracy, corrects, args.batch_size))
-
+                    steps, loss.item(), accuracy, corrects, args.batch_size))
+		
             if steps % args.test_interval == 0:
                 dev_acc, dev_loss = data_eval(dev_iter, model, args)
                 if dev_loss < best_loss:
@@ -59,17 +59,17 @@ def train(train_iter, dev_iter, model, args):
                     last_step = steps
                     if args.save_best:
                         save(model, args.save_dir, 'best.pt')
-                if epoch > 10 and dev_loss > 0.9:
-                    print('\nthe validation is {}, training done...' \
-                          .format(dev_loss))
+                if epoch>10 and dev_loss > 0.9:
+                    print('\nthe validation is {}, training done...'\
+                        .format(dev_loss))
                     sys.exit(0)
                 else:
                     if steps - last_step >= args.early_stop:
                         print('early stop by {} steps.'.format(args.early_stop))
                 model.train()
 
-            # elif steps % args.save_interval == 0:
-            # 	save(model, args.save_dir, 'snapshot', steps)
+			# elif steps % args.save_interval == 0:
+			# 	save(model, args.save_dir, 'snapshot', steps)
 
 
 def data_eval(data_iter, model, args):
@@ -89,23 +89,23 @@ def data_eval(data_iter, model, args):
             logits = torch.cat([logits, logit], 0)
 
         targets.extend(target.tolist())
-
+        
         loss = F.cross_entropy(logit, target)
         batch_num += 1
-        avg_loss += loss.item()
+        avg_loss += loss.item() 
         corrects += (torch.max(logit, 1)[1].view(target.size()).data \
-                     == target.data).sum()
+					 == target.data).sum()
     avg_loss /= batch_num
     size = 2000
-    accuracy_ = corrects.item() / size
-    if not args.test:  # validation phase
+    accuracy_ = corrects.item()/size
+    if not args.test:   # validation phase
         print('\nValidation - loss:{:.6f} acc:{:.4f}({}/{})'.format(
-            avg_loss, accuracy_, corrects, size))
+        	avg_loss, accuracy_, corrects, size))
         return accuracy_, avg_loss
-
-    else:  # testing phase
-
-        # mertrics
+	
+    else:   # testing phase
+	
+		# mertrics
         from sklearn import metrics
         predictions = torch.max(logits, 1)[1].cpu().detach().numpy()
         labels = np.array(targets)
@@ -118,7 +118,7 @@ def data_eval(data_iter, model, args):
         FN = sum((predictions == 0) & (labels == 1))
         FP = sum((predictions == 1) & (labels == 0))
         print('\nTesting - loss:{:.6f} acc:{:.4f}({}/{})'.format(
-            loss, accuracy, corrects, size))
+        	loss, accuracy, corrects, size))
         with open('test_results.txt', 'a', errors='ignore') as f:
             f.write(args.save_dir + '\n')
             f.write('The testing accuracy: {:.4f} \n'.format(accuracy))
@@ -136,4 +136,4 @@ def save(model, save_dir, save_prefix):
         os.makedirs(save_dir)
     save_path = os.path.join(save_dir, save_prefix)
     torch.save(model.state_dict(), save_path)
-
+			

@@ -5,7 +5,8 @@ import torch
 import torch.autograd as autograd
 import torch.nn.functional as F
 from tensorboardX import SummaryWriter
-
+from SupConLoss import SupConLoss
+torch.set_printoptions(threshold=np.inf)
 
 def train(train_iter, dev_iter, model, args):
 	if args.cuda:
@@ -29,8 +30,15 @@ def train(train_iter, dev_iter, model, args):
 				feature, target = feature.cuda(), target.cuda()
 
 			optimizer.zero_grad()
-			logit = model(feature)
+
+			_, logit = model(feature)
+			# features, logit = model(feature)
 			loss = F.cross_entropy(logit, target)
+			# define loss with a temperature `temp`
+			# criterion = SupConLoss(temperature=1)
+			# SupContrast
+			#_, loss = criterion(features, target)
+
 			loss.backward()
 			optimizer.step()
 
@@ -80,8 +88,12 @@ def data_eval(data_iter, model, args):
 		if args.cuda:
 			feature, target = feature.cuda(), target.cuda()
 
-		logit = model(feature)
-
+		# logit = model(feature)
+		_, logit = model(feature)
+		# criterion = SupConLoss(temperature=0.07)
+		# SupContrast
+		# _, loss = criterion(features, target)
+		loss = F.cross_entropy(logit, target)
 		if logits is None:
 			logits = logit
 		else:
@@ -89,7 +101,7 @@ def data_eval(data_iter, model, args):
 
 		targets.extend(target.tolist())
 
-		loss = F.cross_entropy(logit, target)
+		# loss = F.cross_entropy(logit, target)
 		batch_num += 1
 		avg_loss += loss.item() 
 		corrects += (torch.max(logit, 1)[1].view(target.size()).data \
