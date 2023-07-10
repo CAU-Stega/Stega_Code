@@ -1,0 +1,652 @@
+snapshot/single/BiLSTM_Dense/Twitter/HC_1bpw/
+The testing accuracy: 0.9267 
+The testing precious: 0.9182 
+The testing recall: 0.9370 
+The testing F1_score: 0.9267 
+The testing TN: 3666 
+The testing TP: 3748 
+The testing FN: 252 
+The testing FP: 334 
+
+snapshot/single/BiLSTM_Dense/Twitter/HC_2bpw/
+The testing accuracy: 0.8911 
+The testing precious: 0.8639 
+The testing recall: 0.9285 
+The testing F1_score: 0.8910 
+The testing TN: 3415 
+The testing TP: 3714 
+The testing FN: 286 
+The testing FP: 585 
+
+snapshot/single/BiLSTM_Dense/Twitter/HC_3bpw/
+The testing accuracy: 0.8471 
+The testing precious: 0.8178 
+The testing recall: 0.8932 
+The testing F1_score: 0.8468 
+The testing TN: 3204 
+The testing TP: 3573 
+The testing FN: 427 
+The testing FP: 796
+
+snapshot/single/BiLSTM_Dense/Twitter/HC_4bpw/
+The testing accuracy: 0.7768 
+The testing precious: 0.7392 
+The testing recall: 0.8552 
+The testing F1_score: 0.7754 
+The testing TN: 2793 
+The testing TP: 3421 
+The testing FN: 579 
+The testing FP: 1207 
+
+snapshot/single/BiLSTM_Dense/Twitter/HC_5bpw/
+The testing accuracy: 0.7561
+The testing precious: 0.7209
+The testing recall: 0.8357
+The testing F1_score: 0.7546
+The testing TN: 2706
+The testing TP: 3343
+The testing FN: 657
+The testing FP: 1294
+
+snapshot/single/BiLSTM_Dense/IMDB/HC_1bpw/
+The testing accuracy: 0.9491 
+The testing precious: 0.9345 
+The testing recall: 0.9660 
+The testing F1_score: 0.9491 
+The testing TN: 3729 
+The testing TP: 3864 
+The testing FN: 136 
+The testing FP: 271 
+
+snapshot/single/BiLSTM_Dense/IMDB/HC_2bpw/
+The testing accuracy: 0.9121 
+The testing precious: 0.8867 
+The testing recall: 0.9450 
+The testing F1_score: 0.9120 
+The testing TN: 3517 
+The testing TP: 3780 
+The testing FN: 220 
+The testing FP: 483 
+
+snapshot/single/BiLSTM_Dense/IMDB/HC_3bpw/
+The testing accuracy: 0.8904 
+The testing precious: 0.8403 
+The testing recall: 0.9640 
+The testing F1_score: 0.8898 
+The testing TN: 3267 
+The testing TP: 3856 
+The testing FN: 144 
+The testing FP: 733 
+
+snapshot/single/BiLSTM_Dense/IMDB/HC_4bpw/
+The testing accuracy: 0.8317 
+The testing precious: 0.8096 
+The testing recall: 0.8675 
+The testing F1_score: 0.8315 
+The testing TN: 3184 
+The testing TP: 3470 
+The testing FN: 530 
+The testing FP: 816 
+
+snapshot/single/BiLSTM_Dense/IMDB/HC_5bpw/
+The testing accuracy: 0.7688 
+The testing precious: 0.7587 
+The testing recall: 0.7883 
+The testing F1_score: 0.7687 
+The testing TN: 2997 
+The testing TP: 3153 
+The testing FN: 847 
+The testing FP: 1003 
+
+snapshot/single/BiLSTM_Dense/News/HC_1bpw/
+The testing accuracy: 0.9324 
+The testing precious: 0.9139 
+The testing recall: 0.9547 
+The testing F1_score: 0.9323 
+The testing TN: 3640 
+The testing TP: 3819 
+The testing FN: 181 
+The testing FP: 360 
+
+snapshot/single/BiLSTM_Dense/News/HC_2bpw/
+The testing accuracy: 0.9091 
+The testing precious: 0.9060 
+The testing recall: 0.9130 
+The testing F1_score: 0.9091 
+The testing TN: 3621 
+The testing TP: 3652 
+The testing FN: 348 
+The testing FP: 379 
+
+snapshot/single/BiLSTM_Dense/News/HC_3bpw/
+The testing accuracy: 0.8734 
+The testing precious: 0.8956 
+The testing recall: 0.8452 
+The testing F1_score: 0.8733 
+The testing TN: 3606 
+The testing TP: 3381 
+The testing FN: 619 
+The testing FP: 394 
+
+snapshot/single/BiLSTM_Dense/News/HC_4bpw/
+The testing accuracy: 0.8299 
+The testing precious: 0.8273 
+The testing recall: 0.8337 
+The testing F1_score: 0.8299 
+The testing TN: 3304 
+The testing TP: 3335 
+The testing FN: 665 
+The testing FP: 696 
+
+snapshot/single/BiLSTM_Dense/News/HC_5bpw/
+The testing accuracy: 0.7893 
+The testing precious: 0.7929 
+The testing recall: 0.7830 
+The testing F1_score: 0.7892 
+The testing TN: 3182 
+The testing TP: 3132 
+The testing FN: 868 
+The testing FP: 818 
+
+snapshot/single/BiLSTM_Dense/Twitter/ADG_xbpw/
+The testing accuracy: 0.8678 
+The testing precious: 0.8584 
+The testing recall: 0.8808 
+The testing F1_score: 0.8677 
+The testing TN: 3419 
+The testing TP: 3523 
+The testing FN: 477 
+The testing FP: 581 
+
+snapshot/single/BiLSTM_Dense/Twitter/AC_1bpw/
+The testing accuracy: 0.9718 
+The testing precious: 0.9662 
+The testing recall: 0.9778 
+The testing F1_score: 0.9717 
+The testing TN: 3863 
+The testing TP: 3911 
+The testing FN: 89 
+The testing FP: 137 
+
+snapshot/single/BiLSTM_Dense/Twitter/AC_2bpw/
+The testing accuracy: 0.8971 
+The testing precious: 0.8840 
+The testing recall: 0.9143 
+The testing F1_score: 0.8971 
+The testing TN: 3520 
+The testing TP: 3657 
+The testing FN: 343 
+The testing FP: 480 
+
+snapshot/single/BiLSTM_Dense/Twitter/AC_3bpw/
+The testing accuracy: 0.8461 
+The testing precious: 0.8419 
+The testing recall: 0.8522 
+The testing F1_score: 0.8461 
+The testing TN: 3360 
+The testing TP: 3409 
+The testing FN: 591 
+The testing FP: 640 
+
+snapshot/single/BiLSTM_Dense/Twitter/AC_4bpw/
+The testing accuracy: 0.7794 
+The testing precious: 0.8019 
+The testing recall: 0.7420 
+The testing F1_score: 0.7791 
+The testing TN: 3267 
+The testing TP: 2968 
+The testing FN: 1032 
+The testing FP: 733 
+
+snapshot/single/BiLSTM_Dense/Twitter/AC_5bpw/
+The testing accuracy: 0.7245 
+The testing precious: 0.7322 
+The testing recall: 0.7080 
+The testing F1_score: 0.7244 
+The testing TN: 2964 
+The testing TP: 2832 
+The testing FN: 1168 
+The testing FP: 1036 
+
+snapshot/single/BiLSTM_Dense/IMDB/AC_1bpw/
+The testing accuracy: 0.9645 
+The testing precious: 0.9608 
+The testing recall: 0.9685 
+The testing F1_score: 0.9645 
+The testing TN: 3842 
+The testing TP: 3874 
+The testing FN: 126 
+The testing FP: 158 
+
+snapshot/single/BiLSTM_Dense/IMDB/AC_2bpw/
+The testing accuracy: 0.9203 
+The testing precious: 0.9175 
+The testing recall: 0.9235 
+The testing F1_score: 0.9202 
+The testing TN: 3668 
+The testing TP: 3694 
+The testing FN: 306 
+The testing FP: 332 
+
+snapshot/single/BiLSTM_Dense/IMDB/AC_3bpw/
+The testing accuracy: 0.8820 
+The testing precious: 0.8718 
+The testing recall: 0.8958 
+The testing F1_score: 0.8820 
+The testing TN: 3473 
+The testing TP: 3583 
+The testing FN: 417 
+The testing FP: 527 
+
+snapshot/single/BiLSTM_Dense/IMDB/AC_4bpw/
+The testing accuracy: 0.8340 
+The testing precious: 0.8299 
+The testing recall: 0.8403 
+The testing F1_score: 0.8340 
+The testing TN: 3311 
+The testing TP: 3361 
+The testing FN: 639 
+The testing FP: 689 
+
+snapshot/single/BiLSTM_Dense/IMDB/AC_5bpw/
+The testing accuracy: 0.7722 
+The testing precious: 0.7310 
+The testing recall: 0.8615 
+The testing F1_score: 0.7704 
+The testing TN: 2732 
+The testing TP: 3446 
+The testing FN: 554 
+The testing FP: 1268 
+
+snapshot/single/BiLSTM_Dense/News/AC_1bpw/
+The testing accuracy: 0.9725 
+The testing precious: 0.9537 
+The testing recall: 0.9932 
+The testing F1_score: 0.9725 
+The testing TN: 3807 
+The testing TP: 3973 
+The testing FN: 27 
+The testing FP: 193 
+
+snapshot/single/BiLSTM_Dense/News/AC_2bpw/
+The testing accuracy: 0.9012 
+The testing precious: 0.8820 
+The testing recall: 0.9265 
+The testing F1_score: 0.9012 
+The testing TN: 3504 
+The testing TP: 3706 
+The testing FN: 294 
+The testing FP: 496 
+
+snapshot/single/BiLSTM_Dense/News/AC_3bpw/
+The testing accuracy: 0.8718 
+The testing precious: 0.8679 
+The testing recall: 0.8770 
+The testing F1_score: 0.8717 
+The testing TN: 3466 
+The testing TP: 3508 
+The testing FN: 492 
+The testing FP: 534 
+
+snapshot/single/BiLSTM_Dense/News/AC_4bpw/
+The testing accuracy: 0.8335 
+The testing precious: 0.8095 
+The testing recall: 0.8722 
+The testing F1_score: 0.8332 
+The testing TN: 3179 
+The testing TP: 3489 
+The testing FN: 511 
+The testing FP: 821 
+
+snapshot/single/BiLSTM_Dense/News/AC_5bpw/
+The testing accuracy: 0.7770 
+The testing precious: 0.7667 
+The testing recall: 0.7963 
+The testing F1_score: 0.7769 
+The testing TN: 3031 
+The testing TP: 3185 
+The testing FN: 815 
+The testing FP: 969 
+
+
+snapshot/single/BiLSTM_Dense/Twitter/ADG_xbpw/
+The testing accuracy: 0.5886 
+The testing precious: 0.5738 
+The testing recall: 0.6887 
+The testing F1_score: 0.5845 
+The testing TN: 1954 
+The testing TP: 2755 
+The testing FN: 1245 
+The testing FP: 2046 
+
+snapshot/single/BiLSTM_Dense/Twitter/ADG_xbpw/
+The testing accuracy: 0.8704 
+The testing precious: 0.8625 
+The testing recall: 0.8812 
+The testing F1_score: 0.8704 
+The testing TN: 3438 
+The testing TP: 3525 
+The testing FN: 475 
+The testing FP: 562 
+
+snapshot/single/BiLSTM_Dense/Twitter/ADG2_xbpw/
+The testing accuracy: 0.6125 
+The testing precious: 0.6273 
+The testing recall: 0.5545 
+The testing F1_score: 0.6112 
+The testing TN: 2682 
+The testing TP: 2218 
+The testing FN: 1782 
+The testing FP: 1318 
+
+snapshot/single/BiLSTM_Dense/IMDB/ADG2_xbpw/
+The testing accuracy: 0.6062 
+The testing precious: 0.6092 
+The testing recall: 0.5927 
+The testing F1_score: 0.6062 
+The testing TN: 2479 
+The testing TP: 2371 
+The testing FN: 1629 
+The testing FP: 1521 
+
+snapshot/single/BiLSTM_Dense/IMDB/ADG2_xbpw/ half test
+The testing accuracy: 0.6075 
+The testing precious: 0.6079 
+The testing recall: 0.6055 
+The testing F1_score: 0.6075 
+The testing TN: 1219 
+The testing TP: 1211 
+The testing FN: 789 
+The testing FP: 781 
+
+snapshot/single/BiLSTM_Dense/News/ADG3_xbpw/
+The testing accuracy: 0.5000 
+The testing precious: 0.5000 
+The testing recall: 0.9525 
+The testing F1_score: 0.3713 
+The testing TN: 19 
+The testing TP: 381 
+The testing FN: 19 
+The testing FP: 381 
+
+snapshot/single/BiLSTM_Dense/News/ADG3_xbpw/
+The testing accuracy: 0.5000 
+The testing precious: 0.5000 
+The testing recall: 0.9525 
+The testing F1_score: 0.3713 
+The testing TN: 19 
+The testing TP: 381 
+The testing FN: 19 
+The testing FP: 381
+
+snapshot/single/BiLSTM_Dense_DualCL/Twitter/ADG_xbpw/
+The testing accuracy: 0.5070 
+The testing precious: 0.5064 
+The testing recall: 0.5545 
+The testing F1_score: 0.5059 
+The testing TN: 919 
+The testing TP: 1109 
+The testing FN: 891 
+The testing FP: 1081 
+
+snapshot/single/BiLSTM_Dense/Twitter/ADG2_1.753bpw/
+The testing accuracy: 0.4985 
+The testing precious: 0.4992 
+The testing recall: 0.9830 
+The testing F1_score: 0.3447 
+The testing TN: 28 
+The testing TP: 1966 
+The testing FN: 34 
+The testing FP: 1972 
+
+snapshot/single/BiLSTM_Dense/Twitter/ADG2_1.753bpw/
+The testing accuracy: 0.4985 
+The testing precious: 0.4992 
+The testing recall: 0.9830 
+The testing F1_score: 0.3447 
+The testing TN: 28 
+The testing TP: 1966 
+The testing FN: 34 
+The testing FP: 1972 
+
+snapshot/single/BiLSTM_Dense/Twitter/ADG2_1.753bpw/
+The testing accuracy: 0.4975 
+The testing precious: 0.4978 
+The testing recall: 0.5785 
+The testing F1_score: 0.4942 
+The testing TN: 833 
+The testing TP: 1157 
+The testing FN: 843 
+The testing FP: 1167 
+
+snapshot/single/BiLSTM_Dense/News/ADG2_1.778bpw/
+The testing accuracy: 0.4988 
+The testing precious: 0.4994 
+The testing recall: 0.9775 
+The testing F1_score: 0.3497 
+The testing TN: 40 
+The testing TP: 1955 
+The testing FN: 45 
+The testing FP: 1960 
+
+snapshot/single/BiLSTM_Dense/News/ADG2_1.778bpw/
+The testing accuracy: 0.4988 
+The testing precious: 0.4994 
+The testing recall: 0.9865 
+The testing F1_score: 0.3423 
+The testing TN: 22 
+The testing TP: 1973 
+The testing FN: 27 
+The testing FP: 1978
+
+snapshot/single/BiLSTM_Dense/News/ADG2_1.778bpw/
+The testing accuracy: 0.5002 
+The testing precious: 0.5002 
+The testing recall: 0.5655 
+The testing F1_score: 0.4981 
+The testing TN: 870 
+The testing TP: 1131 
+The testing FN: 869 
+The testing FP: 1130
+
+snapshot/single/BiLSTM_Dense/News/ADG2_1.778bpw/
+The testing accuracy: 0.4978
+The testing precious: 0.4980
+The testing recall: 0.5675
+The testing F1_score: 0.4953
+The testing TN: 856
+The testing TP: 1135
+The testing FN: 865
+The testing FP: 1144
+
+snapshot/single/BiLSTM_Dense/IMDB/ADG2_1.765bpw/
+The testing accuracy: 0.4980 
+The testing precious: 0.4990 
+The testing recall: 0.9850 
+The testing F1_score: 0.3419 
+The testing TN: 22 
+The testing TP: 1970 
+The testing FN: 30 
+The testing FP: 1978
+
+snapshot/single/BiLSTM_Dense/IMDB/ADG2_1.765bpw/
+The testing accuracy: 0.4908 
+The testing precious: 0.4952 
+The testing recall: 0.9530 
+The testing F1_score: 0.3524 
+The testing TN: 57 
+The testing TP: 1906 
+The testing FN: 94 
+The testing FP: 1943
+
+snapshot/single/BiLSTM_Dense/IMDB/ADG2_1.765bpw/
+The testing accuracy: 0.4928 
+The testing precious: 0.4962 
+The testing recall: 0.9540 
+The testing F1_score: 0.3557 
+The testing TN: 63 
+The testing TP: 1908 
+The testing FN: 92 
+The testing FP: 1937 
+
+snapshot/single/BiLSTM_Dense/IMDB/ADG2_1.765bpw/
+The testing accuracy: 0.4945 
+The testing precious: 0.4971 
+The testing recall: 0.9565 
+The testing F1_score: 0.3573 
+The testing TN: 65 
+The testing TP: 1913 
+The testing FN: 87 
+The testing FP: 1935 
+
+snapshot/single/BiLSTM_Dense/IMDB/ADG2_1.765bpw/
+The testing accuracy: 0.5062 
+The testing precious: 0.5045 
+The testing recall: 0.6980 
+The testing F1_score: 0.4874 
+The testing TN: 629 
+The testing TP: 1396 
+The testing FN: 604 
+The testing FP: 1371 
+
+
+snapshot/single/BiLSTM_Dense/IMDB/ADG2_5.081bpw/
+The testing accuracy: 0.5152 
+The testing precious: 0.5148 
+The testing recall: 0.5320 
+The testing F1_score: 0.5151 
+The testing TN: 997 
+The testing TP: 1064 
+The testing FN: 936 
+The testing FP: 1003 
+
+snapshot/single/BiLSTM_Dense/Twitter/ADG2_4.811bpw/
+The testing accuracy: 0.5035 
+The testing precious: 0.5031 
+The testing recall: 0.5595 
+The testing F1_score: 0.5019 
+The testing TN: 895 
+The testing TP: 1119 
+The testing FN: 881 
+The testing FP: 1105 
+
+snapshot/single/LS_CNN/News/ADG2_5.408bpw/
+The testing accuracy: 0.5032 
+The testing precious: 0.5017 
+The testing recall: 0.9515 
+The testing F1_score: 0.3783 
+The testing TN: 110 
+The testing TP: 1903 
+The testing FN: 97 
+The testing FP: 1890 
+
+snapshot/single/LS_CNN/News/ADG2_5.408bpw/
+The testing accuracy: 0.5012 
+The testing precious: 0.5006 
+The testing recall: 0.9645 
+The testing F1_score: 0.3650 
+The testing TN: 76 
+The testing TP: 1929 
+The testing FN: 71 
+The testing FP: 1924 
+
+snapshot/single/LS_CNN/News/ADG2_5.408bpw/
+The testing accuracy: 0.5012 
+The testing precious: 0.5006 
+The testing recall: 0.9645 
+The testing F1_score: 0.3650 
+The testing TN: 76 
+The testing TP: 1929 
+The testing FN: 71 
+The testing FP: 1924 
+
+snapshot/single/LS_CNN/News/ADG2_5.408bpw/
+The testing accuracy: 0.5012 
+The testing precious: 0.5006 
+The testing recall: 0.9645 
+The testing F1_score: 0.3650 
+The testing TN: 76 
+The testing TP: 1929 
+The testing FN: 71 
+The testing FP: 1924 
+
+snapshot/single/LS_CNN/News/ADG2_5.408bpw/
+The testing accuracy: 0.4983 
+The testing precious: 0.4991 
+The testing recall: 0.9750 
+The testing F1_score: 0.3507 
+The testing TN: 43 
+The testing TP: 1950 
+The testing FN: 50 
+The testing FP: 1957 
+
+snapshot/single/LS_CNN/News/ADG2_5.408bpw/
+The testing accuracy: 0.4983 
+The testing precious: 0.4991 
+The testing recall: 0.9750 
+The testing F1_score: 0.3507 
+The testing TN: 43 
+The testing TP: 1950 
+The testing FN: 50 
+The testing FP: 1957 
+
+snapshot/single/LS_CNN/News/ADG2_5.408bpw/
+The testing accuracy: 0.4983 
+The testing precious: 0.4991 
+The testing recall: 0.9750 
+The testing F1_score: 0.3507 
+The testing TN: 43 
+The testing TP: 1950 
+The testing FN: 50 
+The testing FP: 1957 
+
+snapshot/single/BiLSTM_Dense/News/ADG2_5.408bpw/
+The testing accuracy: 0.4983 
+The testing precious: 0.4991 
+The testing recall: 0.9750 
+The testing F1_score: 0.3507 
+The testing TN: 43 
+The testing TP: 1950 
+The testing FN: 50 
+The testing FP: 1957 
+
+snapshot/single/BiLSTM_Dense/News/ADG2_5.408bpw/
+The testing accuracy: 0.4975 
+The testing precious: 0.4987 
+The testing recall: 0.9655 
+The testing F1_score: 0.3566 
+The testing TN: 59 
+The testing TP: 1931 
+The testing FN: 69 
+The testing FP: 1941 
+
+snapshot/single/BiLSTM_Dense/News/ADG2_5.408bpw/
+The testing accuracy: 0.4980 
+The testing precious: 0.4990 
+The testing recall: 0.9550 
+The testing F1_score: 0.3655 
+The testing TN: 82 
+The testing TP: 1910 
+The testing FN: 90 
+The testing FP: 1918 
+
+snapshot/single/BiLSTM_Dense/News/ADG2_5.408bpw/
+The testing accuracy: 0.4973 
+The testing precious: 0.4986 
+The testing recall: 0.9650 
+The testing F1_score: 0.3564 
+The testing TN: 59 
+The testing TP: 1930 
+The testing FN: 70 
+The testing FP: 1941 
+
+snapshot/single/BiLSTM_Dense/News/ADG2_5.408bpw/
+The testing accuracy: 0.5012 
+The testing precious: 0.5007 
+The testing recall: 0.9290 
+The testing F1_score: 0.3896 
+The testing TN: 147 
+The testing TP: 1858 
+The testing FN: 142 
+The testing FP: 1853 
+

@@ -1,0 +1,775 @@
+snapshot/single/LS_CNN/Twitter/HC_1bpw/
+The testing accuracy: 0.9481 
+The testing precious: 0.9447 
+The testing recall: 0.9520 
+The testing F1_score: 0.9481 
+The testing TN: 3777 
+The testing TP: 3808 
+The testing FN: 192 
+The testing FP: 223 
+
+snapshot/single/LS_CNN/Twitter/HC_2bpw/
+The testing accuracy: 0.8908 
+The testing precious: 0.8779 
+The testing recall: 0.9077 
+The testing F1_score: 0.8907 
+The testing TN: 3495 
+The testing TP: 3631 
+The testing FN: 369 
+The testing FP: 505 
+
+snapshot/single/LS_CNN/Twitter/HC_3bpw/
+The testing accuracy: 0.8484 
+The testing precious: 0.8569 
+The testing recall: 0.8365 
+The testing F1_score: 0.8484 
+The testing TN: 3441 
+The testing TP: 3346 
+The testing FN: 654 
+The testing FP: 559 
+
+snapshot/single/LS_CNN/Twitter/HC_4bpw/
+The testing accuracy: 0.8093 
+The testing precious: 0.7832 
+The testing recall: 0.8552 
+The testing F1_score: 0.8088 
+The testing TN: 3053 
+The testing TP: 3421 
+The testing FN: 579 
+The testing FP: 947 
+
+snapshot/single/LS_CNN/Twitter/HC_5bpw/
+The testing accuracy: 0.7614 
+The testing precious: 0.7577 
+The testing recall: 0.7685 
+The testing F1_score: 0.7614 
+The testing TN: 3017 
+The testing TP: 3074 
+The testing FN: 926 
+The testing FP: 983 
+
+snapshot/single/LS_CNN_SupCon/Twitter/HC_1bpw/
+The testing accuracy: 0.5356 
+The testing precious: 0.5193 
+The testing recall: 0.9600 
+The testing F1_score: 0.4336 
+The testing TN: 445 
+The testing TP: 3840 
+The testing FN: 160 
+The testing FP: 3555 
+
+snapshot/single/LS_CNN_SupCon/Twitter/HC_5bpw/
+The testing accuracy: 0.5241 
+The testing precious: 0.5399 
+The testing recall: 0.3262 
+The testing F1_score: 0.5047 
+The testing TN: 2888 
+The testing TP: 1305 
+The testing FN: 2695 
+The testing FP: 1112 
+
+snapshot/single/LS_CNN/IMDB/HC_1bpw/
+The testing accuracy: 0.9627 
+The testing precious: 0.9637 
+The testing recall: 0.9617 
+The testing F1_score: 0.9627 
+The testing TN: 3855 
+The testing TP: 3847 
+The testing FN: 153 
+The testing FP: 145 
+
+snapshot/single/LS_CNN/IMDB/HC_2bpw/
+The testing accuracy: 0.9326 
+The testing precious: 0.9291 
+The testing recall: 0.9367 
+The testing F1_score: 0.9326 
+The testing TN: 3714 
+The testing TP: 3747 
+The testing FN: 253 
+The testing FP: 286 
+
+snapshot/single/LS_CNN/IMDB/HC_3bpw/
+The testing accuracy: 0.9246 
+The testing precious: 0.8895 
+The testing recall: 0.9698 
+The testing F1_score: 0.9245 
+The testing TN: 3518 
+The testing TP: 3879 
+The testing FN: 121 
+The testing FP: 482 
+
+snapshot/single/LS_CNN/IMDB/HC_4bpw/
+The testing accuracy: 0.8470 
+The testing precious: 0.8313 
+The testing recall: 0.8708 
+The testing F1_score: 0.8469 
+The testing TN: 3293 
+The testing TP: 3483 
+The testing FN: 517 
+The testing FP: 707 
+
+snapshot/single/LS_CNN/IMDB/HC_5bpw/
+The testing accuracy: 0.7900 
+The testing precious: 0.7825 
+The testing recall: 0.8033 
+The testing F1_score: 0.7900 
+The testing TN: 3107 
+The testing TP: 3213 
+The testing FN: 787 
+The testing FP: 893 
+
+snapshot/single/LS_CNN/News/HC_1bpw/
+The testing accuracy: 0.9535 
+The testing precious: 0.9537 
+The testing recall: 0.9533 
+The testing F1_score: 0.9535 
+The testing TN: 3815 
+The testing TP: 3813 
+The testing FN: 187 
+The testing FP: 185 
+
+snapshot/single/LS_CNN/News/2bpw/
+The testing accuracy: 0.9190 
+The testing precious: 0.9209 
+The testing recall: 0.9167 
+The testing F1_score: 0.9190 
+The testing TN: 3685 
+The testing TP: 3667 
+The testing FN: 333 
+The testing FP: 315 
+
+snapshot/single/LS_CNN/News/HC_3bpw/
+The testing accuracy: 0.8882 
+The testing precious: 0.8806 
+The testing recall: 0.8982 
+The testing F1_score: 0.8882 
+The testing TN: 3513 
+The testing TP: 3593 
+The testing FN: 407 
+The testing FP: 487 
+
+snapshot/single/LS_CNN/News/HC_4bpw/
+The testing accuracy: 0.8419 
+The testing precious: 0.8374 
+The testing recall: 0.8485 
+The testing F1_score: 0.8419 
+The testing TN: 3341 
+The testing TP: 3394 
+The testing FN: 606 
+The testing FP: 659 
+
+snapshot/single/LS_CNN/News/HC_5bpw/
+The testing accuracy: 0.8035 
+The testing precious: 0.8137 
+The testing recall: 0.7873 
+The testing F1_score: 0.8034 
+The testing TN: 3279 
+The testing TP: 3149 
+The testing FN: 851 
+The testing FP: 721 
+
+snapshot/single/LS_CNN/Twitter/ADG_xbpw/
+The testing accuracy: 0.8850 
+The testing precious: 0.8741 
+The testing recall: 0.8995 
+The testing F1_score: 0.8850 
+The testing TN: 3482 
+The testing TP: 3598 
+The testing FN: 402 
+The testing FP: 518 
+
+snapshot/single/LS_CNN/Twitter/AC_1bpw/
+The testing accuracy: 0.9770 
+The testing precious: 0.9727 
+The testing recall: 0.9815 
+The testing F1_score: 0.9770 
+The testing TN: 3890 
+The testing TP: 3926 
+The testing FN: 74 
+The testing FP: 110 
+
+snapshot/single/LS_CNN/Twitter/AC_2bpw/
+The testing accuracy: 0.9137 
+The testing precious: 0.9239 
+The testing recall: 0.9018 
+The testing F1_score: 0.9137 
+The testing TN: 3703 
+The testing TP: 3607 
+The testing FN: 393 
+The testing FP: 297 
+
+snapshot/single/LS_CNN/Twitter/AC_3bpw/
+The testing accuracy: 0.8486 
+The testing precious: 0.8838 
+The testing recall: 0.8027 
+The testing F1_score: 0.8483 
+The testing TN: 3578 
+The testing TP: 3211 
+The testing FN: 789 
+The testing FP: 422 
+
+snapshot/single/LS_CNN/Twitter/AC_4bpw/
+The testing accuracy: 0.7885 
+The testing precious: 0.8390 
+The testing recall: 0.7140 
+The testing F1_score: 0.7873 
+The testing TN: 3452 
+The testing TP: 2856 
+The testing FN: 1144 
+The testing FP: 548 
+
+snapshot/single/LS_CNN/Twitter/AC_5bpw/
+The testing accuracy: 0.7594 
+The testing precious: 0.7718 
+The testing recall: 0.7365 
+The testing F1_score: 0.7592 
+The testing TN: 3129 
+The testing TP: 2946 
+The testing FN: 1054 
+The testing FP: 871 
+
+snapshot/single/LS_CNN/IMDB/AC_1bpw/
+The testing accuracy: 0.9724 
+The testing precious: 0.9683 
+The testing recall: 0.9768 
+The testing F1_score: 0.9724 
+The testing TN: 3872 
+The testing TP: 3907 
+The testing FN: 93 
+The testing FP: 128 
+
+snapshot/single/LS_CNN/IMDB/AC_2bpw/
+The testing accuracy: 0.9369 
+The testing precious: 0.9295 
+The testing recall: 0.9455 
+The testing F1_score: 0.9369 
+The testing TN: 3713 
+The testing TP: 3782 
+The testing FN: 218 
+The testing FP: 287 
+
+snapshot/single/LS_CNN/IMDB/AC_3bpw/
+The testing accuracy: 0.9018 
+The testing precious: 0.8972 
+The testing recall: 0.9075 
+The testing F1_score: 0.9017 
+The testing TN: 3584 
+The testing TP: 3630 
+The testing FN: 370 
+The testing FP: 416 
+
+snapshot/single/LS_CNN/IMDB/AC_4bpw/
+The testing accuracy: 0.8498 
+The testing precious: 0.8142 
+The testing recall: 0.9062 
+The testing F1_score: 0.8493 
+The testing TN: 3173 
+The testing TP: 3625 
+The testing FN: 375 
+The testing FP: 827 
+
+snapshot/single/LS_CNN/IMDB/AC_5bpw/
+The testing accuracy: 0.8024 
+The testing precious: 0.7763 
+The testing recall: 0.8495 
+The testing F1_score: 0.8019 
+The testing TN: 3021 
+The testing TP: 3398 
+The testing FN: 602 
+The testing FP: 979 
+
+snapshot/single/LS_CNN/News/AC_1bpw/
+The testing accuracy: 0.9806 
+The testing precious: 0.9681 
+The testing recall: 0.9940 
+The testing F1_score: 0.9806 
+The testing TN: 3869 
+The testing TP: 3976 
+The testing FN: 24 
+The testing FP: 131 
+
+snapshot/single/LS_CNN/News/AC_2bpw/
+The testing accuracy: 0.9350 
+The testing precious: 0.9410 
+The testing recall: 0.9283 
+The testing F1_score: 0.9350 
+The testing TN: 3767 
+The testing TP: 3713 
+The testing FN: 287 
+The testing FP: 233 
+
+snapshot/single/LS_CNN/News/AC_3bpw/
+The testing accuracy: 0.8941 
+The testing precious: 0.8990 
+The testing recall: 0.8880 
+The testing F1_score: 0.8941 
+The testing TN: 3601 
+The testing TP: 3552 
+The testing FN: 448 
+The testing FP: 399 
+
+snapshot/single/LS_CNN/News/AC_4bpw/
+The testing accuracy: 0.8413 
+The testing precious: 0.8076 
+The testing recall: 0.8960 
+The testing F1_score: 0.8408 
+The testing TN: 3146 
+The testing TP: 3584 
+The testing FN: 416 
+The testing FP: 854 
+
+snapshot/single/LS_CNN/News/AC_5bpw/
+The testing accuracy: 0.8000 
+The testing precious: 0.7933 
+The testing recall: 0.8115 
+The testing F1_score: 0.8000 
+The testing TN: 3154 
+The testing TP: 3246 
+The testing FN: 754 
+The testing FP: 846 
+
+
+snapshot/single/LS_CNN/Twitter/ADG_xbpw/
+The testing accuracy: 0.5901 
+The testing precious: 0.5801 
+The testing recall: 0.6530 
+The testing F1_score: 0.5885 
+The testing TN: 2109 
+The testing TP: 2612 
+The testing FN: 1388 
+The testing FP: 1891 
+
+snapshot/single/LS_CNN/Twitter/ADG_xbpw/
+The testing accuracy: 0.6221 
+The testing precious: 0.6159 
+The testing recall: 0.6490 
+The testing F1_score: 0.6219 
+The testing TN: 2381 
+The testing TP: 2596 
+The testing FN: 1404 
+The testing FP: 1619 
+
+snapshot/single/LS_CNN/Twitter/ADG_xbpw/
+The testing accuracy: 0.6149 
+The testing precious: 0.6328 
+The testing recall: 0.5473 
+The testing F1_score: 0.6131 
+The testing TN: 2730 
+The testing TP: 2189 
+The testing FN: 1811 
+The testing FP: 1270 
+
+snapshot/single/LS_CNN/Twitter/ADG_xbpw/
+The testing accuracy: 0.8821 
+The testing precious: 0.8744 
+The testing recall: 0.8925 
+The testing F1_score: 0.8821 
+The testing TN: 3487 
+The testing TP: 3570 
+The testing FN: 430 
+The testing FP: 513 
+
+snapshot/single/LS_CNN/Twitter/ADG2_xbpw/
+The testing accuracy: 0.6245 
+The testing precious: 0.6260 
+The testing recall: 0.6185 
+The testing F1_score: 0.6245 
+The testing TN: 2522 
+The testing TP: 2474 
+The testing FN: 1526 
+The testing FP: 1478 
+
+snapshot/single/LS_CNN/IMDB/ADG2_xbpw/
+The testing accuracy: 0.6206 
+The testing precious: 0.6302 
+The testing recall: 0.5837 
+The testing F1_score: 0.6201 
+The testing TN: 2630 
+The testing TP: 2335 
+The testing FN: 1665 
+The testing FP: 1370 
+
+snapshot/single/LS_CNN/IMDB/ADG2_xbpw/ half
+The testing accuracy: 0.6262 
+The testing precious: 0.6360 
+The testing recall: 0.5905 
+The testing F1_score: 0.6258 
+The testing TN: 1324 
+The testing TP: 1181 
+The testing FN: 819 
+The testing FP: 676 
+
+snapshot/single/LS_CNN/News/ADG3_xbpw/
+The testing accuracy: 0.5325 
+The testing precious: 0.5266 
+The testing recall: 0.6425 
+The testing F1_score: 0.5268 
+The testing TN: 169 
+The testing TP: 257 
+The testing FN: 143 
+The testing FP: 231 
+
+snapshot/single/LS_CNN/Twitter/ADG3_xbpw/
+The testing accuracy: 0.5020 
+The testing precious: 0.5323 
+The testing recall: 0.0330 
+The testing F1_score: 0.3616 
+The testing TN: 1942 
+The testing TP: 66 
+The testing FN: 1934 
+The testing FP: 58
+
+snapshot/single/LS_CNN_DualCL/IMDB/ADG_xbpw/
+The testing accuracy: 0.5440 
+The testing precious: 0.5366 
+The testing recall: 0.6450 
+The testing F1_score: 0.5393 
+The testing TN: 886 
+The testing TP: 1290 
+The testing FN: 710 
+The testing FP: 1114 
+
+snapshot/single/LS_CNN_DualCL/News/ADG_xbpw/
+The testing accuracy: 0.5190 
+The testing precious: 0.5143 
+The testing recall: 0.6850 
+The testing F1_score: 0.5054 
+The testing TN: 706 
+The testing TP: 1370 
+The testing FN: 630 
+The testing FP: 1294 
+
+snapshot/single/LS_CNN_DualCL/Twitter/ADG_xbpw/
+The testing accuracy: 0.5505 
+The testing precious: 0.5461 
+The testing recall: 0.5985 
+The testing F1_score: 0.5495 
+The testing TN: 1005 
+The testing TP: 1197 
+The testing FN: 803 
+The testing FP: 995 
+
+snapshot/single/LS_CNN_DualCL/Twitter/VLC_1bpw/
+The testing accuracy: 0.9718 
+The testing precious: 0.9499 
+The testing recall: 0.9960 
+The testing F1_score: 0.9717 
+The testing TN: 1895 
+The testing TP: 1992 
+The testing FN: 8 
+The testing FP: 105 
+
+snapshot/single/LS_CNN_DualCL/Twitter/VLC_2bpw/
+The testing accuracy: 0.9407 
+The testing precious: 0.9087 
+The testing recall: 0.9800 
+The testing F1_score: 0.9407 
+The testing TN: 1803 
+The testing TP: 1960 
+The testing FN: 40 
+The testing FP: 197 
+
+snapshot/single/LS_CNN_DualCL/Twitter/VLC_3bpw/
+The testing accuracy: 0.9275 
+The testing precious: 0.8933 
+The testing recall: 0.9710 
+The testing F1_score: 0.9274 
+The testing TN: 1768 
+The testing TP: 1942 
+The testing FN: 58 
+The testing FP: 232 
+
+snapshot/single/LS_CNN_DualCL/Twitter/VLC_4bpw/
+The testing accuracy: 0.8828 
+The testing precious: 0.8371 
+The testing recall: 0.9505 
+The testing F1_score: 0.8822 
+The testing TN: 1630 
+The testing TP: 1901 
+The testing FN: 99 
+The testing FP: 370 
+
+snapshot/single/LS_CNN_DualCL/Twitter/VLC_5bpw/
+The testing accuracy: 0.8313 
+The testing precious: 0.7780 
+The testing recall: 0.9270 
+The testing F1_score: 0.8297 
+The testing TN: 1471 
+The testing TP: 1854 
+The testing FN: 146 
+The testing FP: 529 
+
+snapshot/single/LS_CNN_DualCL/Twitter/VLC_6bpw/
+The testing accuracy: 0.7987 
+The testing precious: 0.7690 
+The testing recall: 0.8540 
+The testing F1_score: 0.7981 
+The testing TN: 1487 
+The testing TP: 1708 
+The testing FN: 292 
+The testing FP: 513 
+
+snapshot/single/LS_CNN_DualCL/Twitter/AC_1bpw/
+The testing accuracy: 0.9800 
+The testing precious: 0.9638 
+The testing recall: 0.9975 
+The testing F1_score: 0.9800 
+The testing TN: 1925 
+The testing TP: 1995 
+The testing FN: 5 
+The testing FP: 75 
+
+snapshot/single/LS_CNN_DualCL/Twitter/AC_2bpw/
+The testing accuracy: 0.9463 
+The testing precious: 0.9176 
+The testing recall: 0.9805 
+The testing F1_score: 0.9462 
+The testing TN: 1824 
+The testing TP: 1961 
+The testing FN: 39 
+The testing FP: 176 
+
+snapshot/single/LS_CNN_DualCL/Twitter/AC_3bpw/
+The testing accuracy: 0.9175 
+The testing precious: 0.8802 
+The testing recall: 0.9665 
+The testing F1_score: 0.9173 
+The testing TN: 1737 
+The testing TP: 1933 
+The testing FN: 67 
+The testing FP: 263 
+
+snapshot/single/LS_CNN_DualCL/Twitter/AC_4bpw/
+The testing accuracy: 0.8832 
+The testing precious: 0.8372 
+The testing recall: 0.9515 
+The testing F1_score: 0.8827 
+The testing TN: 1630 
+The testing TP: 1903 
+The testing FN: 97 
+The testing FP: 370 
+
+snapshot/single/LS_CNN_DualCL/Twitter/AC_5bpw/
+The testing accuracy: 0.8287 
+The testing precious: 0.7890 
+The testing recall: 0.8975 
+The testing F1_score: 0.8279 
+The testing TN: 1520 
+The testing TP: 1795 
+The testing FN: 205 
+The testing FP: 480 
+
+snapshot/single/LS_CNN_DualCL/Twitter/AC_6bpw/
+The testing accuracy: 0.8007 
+The testing precious: 0.7487 
+The testing recall: 0.9055 
+The testing F1_score: 0.7985 
+The testing TN: 1392 
+The testing TP: 1811 
+The testing FN: 189 
+The testing FP: 608 
+
+snapshot/single/LS_CNN_DualCL/Twitter/VLC2_1bpw/
+The testing accuracy: 0.9507 
+The testing precious: 0.9510 
+The testing recall: 0.9505 
+The testing F1_score: 0.9507 
+The testing TN: 1902 
+The testing TP: 1901 
+The testing FN: 99 
+The testing FP: 98 
+
+snapshot/single/LS_CNN_DualCL/Twitter/VLC2_2bpw/
+The testing accuracy: 0.9165 
+The testing precious: 0.9120 
+The testing recall: 0.9220 
+The testing F1_score: 0.9165 
+The testing TN: 1822 
+The testing TP: 1844 
+The testing FN: 156 
+The testing FP: 178 
+
+snapshot/single/LS_CNN_DualCL/Twitter/VLC2_3bpw/
+The testing accuracy: 0.8815 
+The testing precious: 0.8623 
+The testing recall: 0.9080 
+The testing F1_score: 0.8814 
+The testing TN: 1710 
+The testing TP: 1816 
+The testing FN: 184 
+The testing FP: 290 
+
+snapshot/single/LS_CNN_DualCL/Twitter/VLC2_4bpw/
+The testing accuracy: 0.8465 
+The testing precious: 0.8380 
+The testing recall: 0.8590 
+The testing F1_score: 0.8465 
+The testing TN: 1668 
+The testing TP: 1718 
+The testing FN: 282 
+The testing FP: 332 
+
+snapshot/single/LS_CNN_DualCL/Twitter/VLC2_5bpw/
+The testing accuracy: 0.7963 
+The testing precious: 0.7757 
+The testing recall: 0.8335 
+The testing F1_score: 0.7960 
+The testing TN: 1518 
+The testing TP: 1667 
+The testing FN: 333 
+The testing FP: 482 
+
+snapshot/single/LS_CNN_DualCL/Twitter/VLC2_6bpw/
+The testing accuracy: 0.7538 
+The testing precious: 0.7237 
+The testing recall: 0.8210 
+The testing F1_score: 0.7526 
+The testing TN: 1373 
+The testing TP: 1642 
+The testing FN: 358 
+The testing FP: 627 
+
+snapshot/single/LS_CNN_DualCL/Twitter/AC2_1bpw/
+The testing accuracy: 0.9660 
+The testing precious: 0.9693 
+The testing recall: 0.9625 
+The testing F1_score: 0.9660 
+The testing TN: 1939 
+The testing TP: 1925 
+The testing FN: 75 
+The testing FP: 61 
+
+snapshot/single/LS_CNN_DualCL/Twitter/AC2_2bpw/
+The testing accuracy: 0.9280 
+The testing precious: 0.9254 
+The testing recall: 0.9310 
+The testing F1_score: 0.9280 
+The testing TN: 1850 
+The testing TP: 1862 
+The testing FN: 138 
+The testing FP: 150 
+
+snapshot/single/LS_CNN_DualCL/Twitter/AC2_3bpw/
+The testing accuracy: 0.8852 
+The testing precious: 0.8851 
+The testing recall: 0.8855 
+The testing F1_score: 0.8852 
+The testing TN: 1770 
+The testing TP: 1771 
+The testing FN: 229 
+The testing FP: 230 
+
+snapshot/single/LS_CNN_DualCL/Twitter/AC2_4bpw/
+The testing accuracy: 0.8448 
+The testing precious: 0.8257 
+The testing recall: 0.8740 
+The testing F1_score: 0.8446 
+The testing TN: 1631 
+The testing TP: 1748 
+The testing FN: 252 
+The testing FP: 369 
+
+snapshot/single/LS_CNN_DualCL/Twitter/AC2_5bpw/
+The testing accuracy: 0.7993 
+The testing precious: 0.7762 
+The testing recall: 0.8410 
+The testing F1_score: 0.7989 
+The testing TN: 1515 
+The testing TP: 1682 
+The testing FN: 318 
+The testing FP: 485 
+
+snapshot/single/LS_CNN_DualCL/Twitter/AC2_6bpw/
+The testing accuracy: 0.7422 
+The testing precious: 0.7181 
+The testing recall: 0.7975 
+The testing F1_score: 0.7415 
+The testing TN: 1374 
+The testing TP: 1595 
+The testing FN: 405 
+The testing FP: 626 
+
+snapshot/single/LS_CNN/Twitter/ADG2_1.753bpw/
+The testing accuracy: 0.5220 
+The testing precious: 0.5141 
+The testing recall: 0.8045 
+The testing F1_score: 0.4805 
+The testing TN: 479 
+The testing TP: 1609 
+The testing FN: 391 
+The testing FP: 1521 
+
+snapshot/single/LS_CNN/Twitter/ADG2_1.753bpw/
+The testing accuracy: 0.5082 
+The testing precious: 0.5063 
+The testing recall: 0.6650 
+The testing F1_score: 0.4959 
+The testing TN: 703 
+The testing TP: 1330 
+The testing FN: 670 
+The testing FP: 1297 
+
+snapshot/single/LS_CNN/Twitter/ADG2_1.753bpw/
+The testing accuracy: 0.5288 
+The testing precious: 0.5265 
+The testing recall: 0.5705 
+The testing F1_score: 0.5279 
+The testing TN: 974 
+The testing TP: 1141 
+The testing FN: 859 
+The testing FP: 1026 
+
+snapshot/single/LS_CNN/IMDB/ADG2_1.765bpw/
+The testing accuracy: 0.5158 
+The testing precious: 0.5125 
+The testing recall: 0.6455 
+The testing F1_score: 0.5075 
+The testing TN: 772 
+The testing TP: 1291 
+The testing FN: 709 
+The testing FP: 1228 
+
+
+
+snapshot/single/LS_CNN/News/ADG2_1.778bpw/
+The testing accuracy: 0.5205 
+The testing precious: 0.5198 
+The testing recall: 0.5390 
+The testing F1_score: 0.5203 
+The testing TN: 1004 
+The testing TP: 1078 
+The testing FN: 922 
+The testing FP: 996 
+
+snapshot/single/LS_CNN/Twitter/ADG2_4.811bpw/
+The testing accuracy: 0.5205 
+The testing precious: 0.5285 
+The testing recall: 0.3805 
+The testing F1_score: 0.5109 
+The testing TN: 1321 
+The testing TP: 761 
+The testing FN: 1239 
+The testing FP: 679 
+
+
+snapshot/single/LS_CNN/News/ADG2_5.408bpw/
+The testing accuracy: 0.5048 
+The testing precious: 0.5036 
+The testing recall: 0.6645 
+The testing F1_score: 0.4918 
+The testing TN: 690 
+The testing TP: 1329 
+The testing FN: 671 
+The testing FP: 1310 
+
+snapshot/single/LS_CNN/IMDB/ADG2_5.081bpw/  (le=0.0008)
+The testing accuracy: 0.5105 
+The testing precious: 0.5083 
+The testing recall: 0.6435 
+The testing F1_score: 0.5017 
+The testing TN: 755 
+The testing TP: 1287 
+The testing FN: 713 
+The testing FP: 1245 
+
+
