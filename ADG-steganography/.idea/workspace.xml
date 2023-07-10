@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="652c77bc-10b1-4391-802e-39a1aa668d87" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../RNN-Stega/data/tweet.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RNN-Stega/encode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adg-stega.py" beforeDir="false" afterPath="$PROJECT_DIR$/adg-stega.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/measure/kld1/measure_kld1.py" beforeDir="false" afterPath="$PROJECT_DIR$/measure/kld1/measure_kld1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/measure/kld2/build_vec.py" beforeDir="false" afterPath="$PROJECT_DIR$/measure/kld2/build_vec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/measure/kld2/dataset_remove_unk.py" beforeDir="false" afterPath="$PROJECT_DIR$/measure/kld2/dataset_remove_unk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/measure/kld2/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/measure/kld2/utils2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/measure/kld2/word2vec.py" beforeDir="false" afterPath="$PROJECT_DIR$/measure/kld2/word2vec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_lm.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_lm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RNN-Stega/Config_movie.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../RNN-Stega/Config_movie.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RNN-Stega/Model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../RNN-Stega/Model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RNN-Stega/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../RNN-Stega/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RNN-Stega/huffman_movie_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../RNN-Stega/huffman_movie_v2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RNN-Stega/huffman_tweet_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../RNN-Stega/huffman_tweet_v2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-Stega/VAE-Stega/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../VAE-Stega/VAE-Stega/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-Stega/VAE-Stega/bert/tokenization.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../VAE-Stega/VAE-Stega/bert/tokenization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-Stega/VAE-Stega/utils/data_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../VAE-Stega/VAE-Stega/utils/data_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-Stega/VAE-Stega/utils/parameters.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../VAE-Stega/VAE-Stega/utils/parameters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-Stega/VAE-Stega/vae_bert-lstm.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../VAE-Stega/VAE-Stega/vae_bert-lstm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-Stega/VAE-Stega/vae_lstm-lstm.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../VAE-Stega/VAE-Stega/vae_lstm-lstm.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../VAE-Stega/VAE-Stega" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HZ05dy45QgFziZZneciBTpWCg4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/katelin/FILE/Stega Code/ADG-Stega/ADG-steganography&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="652c77bc-10b1-4391-802e-39a1aa668d87" name="Changes" comment="" />
+      <created>1668477116746</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668477116746</updated>
+      <workItem from="1668477118510" duration="3450000" />
+      <workItem from="1668604013123" duration="2776000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
